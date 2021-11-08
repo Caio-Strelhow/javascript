@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Concessionária</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Compre o seu carro!</h1>
+    </header>
+    <main>
+        <p>Primeiro digite seu nome: <input id="nome" type="text"></p>
+        <div class="dale">
+            <p>Escolha a cor do seu carro: <input id="cor" type="text"></p>
+            <p>Opções de cores: </p>
+            <ul>
+                <li>Branco</li>
+                <li>Preto</li>
+                <li>Vermelho</li>
+            </ul>
+        </div>
+        <div class="dale">
+            <p>Escolha a quantidade de portas: <input id="portas" type="text"></p>
+            <p>Quantidades disponíveis: </p>
+            <ul>
+                <li>2(Duas)</li>
+                <li>4(Quatro)</li>
+            </ul>
+        </div>
+        <input id="btConfirma" type="button" value="Confirmar Dados!" onclick="confirmar()">
+        <div id="texto"></div>
+    </main>
+    <footer></footer>
+    <script src="java.js"></script>
+    
+</body>
+</html>
