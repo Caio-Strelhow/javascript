@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+}
+input{
+    margin-top: 15px;
+}
+p{
+    margin-top: 5px;
+}
