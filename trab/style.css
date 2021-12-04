@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: url("Carros-3.jpg");
+}
+p{
+    padding: 5px;
+}
+main{
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    max-width: 500px;
+    background-color: whitesmoke;
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+}
+li{
+    list-style-position: inside;
+}
+input#btConfirma{
+    margin: auto;
+    display: block;
+    padding: 2px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+header{
+    background-color: black;
+    color: white;
+}
+div.dale{
+    box-shadow: 1px 1px 3px black;
+    font-style: bolder;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(255, 88, 88);
+}
+div#texto{
+    margin-top: 10px;
+}
